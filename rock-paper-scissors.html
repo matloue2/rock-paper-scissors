@@ -24,7 +24,25 @@
           playGame('Scissors'); 
         ">
       </div>
+
+      <div class="btn-container">
+
+        <button class="buttons" onclick="
+        alert(`Wins: ${score.wins} Losses: ${score.losses} Ties: ${score.ties}`);"
+        >View Score</button>
       
+        <button class="buttons" onclick="
+        score = {
+          wins: 0,
+          losses: 0,
+          ties: 0
+        }
+
+        alert(`Score has been reset!`);
+        "
+        >Reset score</button>
+      </div>
+  
       <script>
 
         let score = {

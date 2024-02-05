@@ -1,13 +1,39 @@
-
+.heading {
+    text-align: center;
+    font-size: 25px;
+}
 
 .icons {
     text-align: center;
     margin-top: 15%;
+    margin-bottom: 50px;
     
 }
 
-.heading {
-    text-align: center;
-    font-size: 25px;
-    
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.buttons {
+    padding: 8px 20px;
+    width: 200px;
+    height: 55px;
+    border-radius: 0;
+    text-transform: uppercase;
+    display: inline-block;
+    overflow: hidden;
+}
+
+
+
+.buttons:hover {
+    background: transparent;
+}
+
+.buttons:active {
+    background-color: grey;
+    transition-duration: 0.5s;
 }
