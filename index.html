@@ -66,16 +66,11 @@
     <p class="signature">Proudly built by Itumeleng.Dev</p>
 
     <script>
-      let score = JSON.parse(localStorage.getItem('score'));
-
-      if (score === null) {
-        score = {
+      let score = JSON.parse(localStorage.getItem('score')) || {
           wins: 0,
           losses: 0,
           ties: 0
         };
-      }
-     
 
       function playGame(playerMove) {
         const computerMove = pickComputerMove();
