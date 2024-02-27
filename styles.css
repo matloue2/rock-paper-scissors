@@ -1,12 +1,44 @@
 .heading {
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body {
+    color: rgb(6, 6, 16);
+    font-family: Arial;
+
 }
 
 .icons {
     text-align: center;
-    margin-top: 15%;
-    margin-bottom: 50px;
+    margin-top: 8%;
+    margin-bottom: 50px;  
+}
+
+.move-button {
+    border: 8px solid black;
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.result-icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.score {
+    margin-top: 60px;
+}
+
+.result {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
 }
 
 .btn-container {
@@ -20,10 +52,20 @@
     padding: 8px 20px;
     width: 200px;
     height: 55px;
+    background-color: darkgray;
+    color: white;
+    font-size: 15px;
     border-radius: 0;
     text-transform: uppercase;
     display: inline-block;
     overflow: hidden;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
 }
 
 
